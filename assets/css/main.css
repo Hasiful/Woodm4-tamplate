@@ -1,0 +1,610 @@
+/* ===================
+=====================
+   Header Section
+======================
+===================== */
+.header_section {
+    background-color: var(--primary);
+    padding: 6px 0px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+.header_logo_image {
+    height: 50px;
+    width: 50px;
+}
+.header_logo_image img{
+    width: 100%;
+}
+.header_title {
+    color: var(--textcolor);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+.menu{
+    margin-right: 20px;
+    display: none;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu ul li:not(:last-child){
+    margin-right: 20px;
+}
+.menu ul li a {
+    color: var(--textcolor);
+    text-transform: capitalize;
+    font-size: 19px;
+    font-weight: 400;
+}
+.header_nav_btn{
+    display: none;
+}
+.mobile_nav{
+    display: block;
+}
+.mobile_nav li {
+    height: 2px;
+    width: 30px;
+    background-color: var(--secondary);
+    margin: 6px;
+}
+/* ===================
+=====================
+   Header Section
+======================
+===================== */
+
+
+/* ===================
+=====================
+   bennar Section
+======================
+===================== */
+section.bennar_section {
+    background: var(--primary);
+    padding-bottom: 110px;
+}
+.bennar_section_wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.benanr_tex {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.bennar_header {
+    color: var(--textcolor);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.bennar_subtitle {
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--textcolor);
+    margin: 20px 0px;
+}
+.bennar_sub_tex {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.banner_btn {
+    padding: 15px 60px !important;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+.bennar_image{
+    width: 100%;
+}
+.bennar_image_content{
+  position: relative;
+}
+.bennar_image_1 {
+    padding-right: 35px;
+    position: relative;
+}
+.bennar_image_1 img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.bennar_image_2 {
+    position: absolute;
+    bottom: -78px;
+    right: -2px;
+}
+.bennar_image_2 img{
+    width: 200px;
+  
+}
+.bennar_image_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 73px;
+    right: 0px;
+}
+.bennar_image_title {
+    transform: rotate(90deg);
+    margin-top: 200px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline;
+    color: var(--textcolor);
+    position: relative;
+    position: absolute;
+    top: 120px;
+}
+.bennar_image_title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 72%;
+    transform: translate(-50%, -50%) !important;
+    width: 100px;
+    height: 3px;
+    background-color: var(--textcolor);
+    transform: rotate(180deg);
+}
+.icon_1 {
+    color: var(--textcolor);
+    font-size: 30px;
+}
+/* ===================
+=====================
+  bennar Section
+======================
+===================== */
+
+/* ===================
+=====================
+Call toaction Section
+======================
+===================== */
+
+.call_to_action {
+    background-color: var(--primary);
+    position: relative;
+    padding-bottom: 200px;
+}
+.call_to_action_image{
+    width: 75%;
+}
+.call_to_action_image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.call_to_action_contant {
+    width: 91%;
+    position: absolute;
+    top: 225px;
+    right: 16px;
+}
+.call_to_action_header {
+    font-size: 30px;
+    line-height: 29px;
+    color: var(--textcolor);
+    font-weight: 600;
+}
+.call_to_action_text {
+    background: #656b50;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+    line-height: 1.8;
+    width: 100%;
+}
+.call_to_actoin_link {
+    color: var(--secondary);
+    font-size: 18px;
+    position: relative;
+    padding-right: 60px;
+}
+.call_to_actoin_link:hover::after{
+    right: -10px;
+}
+.call_to_actoin_link::after {
+    content: "\2192";
+    right: 5px;
+    top: 44%;
+    transform: translateY(-50%);
+    font-size: 37px;
+    position: absolute;
+    transition: all 0.5s linear;
+}
+/* ===================
+=====================
+ Call toaction Section
+======================
+===================== */
+
+/* ===================
+=====================
+ card box Section
+======================
+===================== */
+
+.card_box_section {
+    background-color: var(--primary);
+    padding: 50px 0px;
+}
+.card_box_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.card_item {
+    text-align: center;
+}
+.card_item_icon i {
+    font-size: 96px;
+    color: #b69b74;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.card_box_title {
+    color: var(--textcolor);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.card_item_subtext {
+    color: #4b4845;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* ===================
+=====================
+ card box Section
+======================
+===================== */
+
+/* ===================
+=====================
+ unique design Section
+======================
+===================== */
+.unique_work_section {
+    background-color: #eee8df;
+    padding: 50px 0px;
+}
+.unique_work_left {
+    text-align: center;
+}
+.unque_work_left_title {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:var(--textcolor);
+}
+.unque_work_left_text {
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--textcolor);
+    margin-bottom: 30px;
+}
+.unque_work_left_image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.unque_work_left_image img{
+    width: 100%;
+}
+.unique_work_right {
+    text-align: center;
+}
+.unque_work_right_title {
+    color: var(--textcolor);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.unque_work_right_yext  {
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--textcolor);
+    margin-bottom: 30px;
+}
+.right_design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.right_design_title,
+.right_design_icon {
+    color: var(--textcolor);
+    font-size: 20px;
+}
+/* ===================
+=====================
+ card unique Section
+======================
+===================== */
+
+
+/* ===================
+=====================
+ Our Team section
+======================
+===================== */
+
+.our_team_section{
+    background-color: var(--primary);
+    padding: 50px 0;
+}
+.our_team_title {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.title_header {
+    color: var(--secondary);
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.title_text {
+    color: var(--textcolor);
+    font-size: 17px;
+    font-weight: 400;
+}
+.our_team_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 80px;
+}
+.team_item{
+    text-align: center;
+}
+.team_image img{
+    width: 100%;
+}
+.team_image_caption {
+    position: relative;
+    margin-bottom: 87px;
+}
+.team_image_caption::after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 3px;
+    bottom: -68px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--secondary);
+}
+.member_name {
+    font-size: 32px;
+    color: var(--textcolor);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.member_position {
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.member_mail {
+    color: var(--textcolor);
+    font-size: 18px;
+    font-weight: 400;
+}
+.team_image_text {
+    color: var(--textcolor);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* ===================
+=====================
+  Our Team section
+======================
+===================== */
+
+
+/* ===================
+=====================
+ our video section
+======================
+===================== */
+
+.video_section{
+    background-color: #eee8df;
+    padding: 50px 0px;
+}
+.video_title {
+    text-align: center;
+    font-size: 36px;
+    color: var(--textcolor);
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.video_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+}
+.video_icon {
+    background: url(../image/background18.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.video_icon_bg2{
+    background: url(../image/background211.jpg) center center;
+}
+.video_icon::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(187 180 178 / 40%);
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.video_icon i {
+    font-size: 60px;
+    color: white;
+    z-index: 999;
+}
+.video_caption{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.background_image_section{
+    background:url(../image/background4.jpg) center center;
+    background-position: 50% ,50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+/* ===================
+=====================
+  our video section
+======================
+===================== */
+
+/* ===================
+=====================
+  contact us section
+======================
+===================== */
+
+.contact_us_section{
+    padding: 50px 0px;
+    background: var(--primary);
+}
+.contact_us_wrapper {
+    text-align: center;
+}
+.contact_us_input{}
+.label_title{
+    display: block;
+}
+.input_control {
+    width: 100%;
+    height: 44px;
+    outline: none;
+    border: none;
+    padding: 30px 10px;
+    border-bottom: 2px solid rgb(20 15 15 / 80%);
+    background: var(--primary);
+}
+.contact_us_input2{
+    text-align: center;
+}
+input[type="checkbox"] {
+    margin: 12px;
+}
+.input_box {
+    color: #9b9191;
+    font-size: 16px;
+    margin-top: 20px;
+}
+textarea {
+    padding: 30px 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(20 15 15 / 80%);
+    background-color: var(--primary);
+    margin-bottom: 20px;
+}
+::placeholder{
+    font-size: 18px;
+}
+
+
+/* ===================
+=====================
+  contact us section
+======================
+===================== */
+
+/* ===================
+=====================
+  footer section section
+======================
+===================== */
+
+.footer_section{
+    background-color: var(--textcolor);
+    color: white;
+    padding: 50px 0px;
+}
+.footer_content{
+    text-align: center;
+}
+.footer_logo {
+    margin-bottom: 50px;
+}
+.footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.footer_item {
+    margin: 20px 0px;
+}
+.addres_title {
+    color: var(--secondary);
+    font-size: 27px;
+    font-weight: 500;
+}
+.city_text {
+    font-size: 19px;
+    line-height: 31px;
+}
+
+/* ===================
+=====================
+  footer menu section
+======================
+===================== */

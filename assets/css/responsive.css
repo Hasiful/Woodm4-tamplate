@@ -1,0 +1,142 @@
+/* ==================
+====================
+  Media Quary 991px
+====================
+================== */
+
+@media(min-width: 991px){
+    .header_title {
+      font-size: 35px;
+    }
+    .mobile_nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header_nav_btn{
+        display: block;
+    }
+    .bennar_section_wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .benanr_tex {
+        width: 40%;
+        text-align: left;
+        margin-top: 0px;
+    }
+    .bennar_header {
+        font-size: 73px;
+        line-height: 90px;
+    }
+    .bennar_sub_tex {
+        font-size: 20px;
+        line-height: 2;
+    }
+    .bennar_image {
+        width: 58%;
+    }
+    .bennar_image_2 img {
+        width: 400px;
+    }
+    .bennar_image_1 {
+        padding-right: 85px;
+        position: relative;
+    }
+    .bennar_image_1 img {
+        height: 800px;
+    }
+    .call_to_action {
+        padding-bottom: 100px;
+    }
+    .call_to_action_contant {
+        width: 50%;
+        top: 175px;
+    }
+    .call_to_action_header {
+        font-size: 70px;
+        line-height: 90px;
+        text-align: right;
+    }
+    .call_to_action_text {
+        padding: 80px 100px;
+        margin-top: 20px;
+        line-height: 1.8;
+    }
+    .call_to_action_image img {
+        height: 600px;
+    }
+    .card_box_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+    }
+    .card_box_title {
+        font-size: 40px;
+    }
+    .unique_work_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .unique_work_left, 
+    .unique_work_right {
+        text-align: left;
+        width: 48%;
+    }
+    .unque_work_left_title {
+        font-size: 80px;
+        line-height: 72px;
+    }
+    .our_team_title {
+        width: 55%;
+    }
+    .our_team_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 80px;
+    }
+    .video_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+    .video_icon {
+        height: 500px;
+    }
+    .label_title {
+        display: inline-block;
+    }
+    .input_box {
+        width: 47%;
+        text-align: left;
+    }
+    textarea {
+        width: 47%;
+        margin: 0px;
+    }
+    .contact_us_input2 {
+        text-align: center;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .input_control {
+        width: 47%;
+        margin-bottom: 20px;
+    }
+    .contact_us_input {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer_wrapper {
+
+        flex-direction: row;
+    }
+    
+}
+/* ==================
+====================
+  Media Quary 991px
+====================
+================== */
